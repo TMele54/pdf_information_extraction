@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)https://pdfminersix.readthedocs.io/en/latest/tutorial/composable.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    
+    <title>Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation</title>
+    <link rel="stylesheet" href="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/alabaster.css" type="text/css">
+    <link rel="stylesheet" href="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/pygments.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/badge_only.css">
+    <script type="text/javascript" async="" src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/analytics.js.download"></script><script type="text/javascript" id="documentation_options" data-url_root="../" src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/documentation_options.js.download"></script>
+    <script type="text/javascript" src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/jquery.js.download"></script>
+    <script type="text/javascript" src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/underscore.js.download"></script>
+    <script type="text/javascript" src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/doctools.js.download"></script>
+    <script type="text/javascript" src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/language_data.js.download"></script>
+    <script async="async" type="text/javascript" src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/readthedocs-doc-embed.js.download"></script>
+    <link rel="index" title="Index" href="https://pdfminersix.readthedocs.io/en/latest/genindex.html">
+    <link rel="search" title="Search" href="https://pdfminersix.readthedocs.io/en/latest/search.html">
+    <link rel="next" title="Extract elements from a PDF using Python" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/extract_pages.html">
+    <link rel="prev" title="Extract text from a PDF using Python" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/highlevel.html">
+   
+  <link rel="stylesheet" href="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/custom.css" type="text/css">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/composable.html">
+
+<link rel="stylesheet" href="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/readthedocs-doc-embed.css" type="text/css">
+
+<script type="text/javascript" src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/readthedocs-data.js.download"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = "tutorial/composable"
+READTHEDOCS_DATA['source_suffix'] = ".rst"
+</script>
+
+<script type="text/javascript" src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/readthedocs-analytics.js.download" async="async"></script>
+
+<!-- end RTD <extrahead> -->
+<script src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/js" type="text/javascript" async=""></script><script src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/ethicalads.min.js.download" type="text/javascript" async="" id="ethicaladsjs"></script><style>[data-ea-publisher].loaded,[data-ea-type].loaded{font-size:14px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;font-weight:normal;font-style:normal;leter-spacing:0px;vertical-align:baseline;line-height:1.3em}[data-ea-publisher].loaded a,[data-ea-type].loaded a{text-decoration:none}[data-ea-publisher].loaded .ea-pixel,[data-ea-type].loaded .ea-pixel{display:none}[data-ea-publisher].loaded .ea-content,[data-ea-type].loaded .ea-content{margin:1em 1em 0.5em 1em;padding:1em;background:rgba(0,0,0,0.03);color:#505050}[data-ea-publisher].loaded .ea-content a:link,[data-ea-type].loaded .ea-content a:link{color:#505050}[data-ea-publisher].loaded .ea-content a:visited,[data-ea-type].loaded .ea-content a:visited{color:#505050}[data-ea-publisher].loaded .ea-content a:hover,[data-ea-type].loaded .ea-content a:hover{color:#373737}[data-ea-publisher].loaded .ea-content a:active,[data-ea-type].loaded .ea-content a:active{color:#373737}[data-ea-publisher].loaded .ea-content a strong,[data-ea-publisher].loaded .ea-content a b,[data-ea-type].loaded .ea-content a strong,[data-ea-type].loaded .ea-content a b{color:#088cdb}[data-ea-publisher].loaded .ea-callout a:link,[data-ea-type].loaded .ea-callout a:link{color:#6a6a6a}[data-ea-publisher].loaded .ea-callout a:visited,[data-ea-type].loaded .ea-callout a:visited{color:#6a6a6a}[data-ea-publisher].loaded .ea-callout a:hover,[data-ea-type].loaded .ea-callout a:hover{color:#505050}[data-ea-publisher].loaded .ea-callout a:active,[data-ea-type].loaded .ea-callout a:active{color:#505050}[data-ea-publisher].loaded .ea-callout a strong,[data-ea-publisher].loaded .ea-callout a b,[data-ea-type].loaded .ea-callout a strong,[data-ea-type].loaded .ea-callout a b{color:#088cdb}[data-ea-publisher].loaded .ea-callout a,[data-ea-type].loaded .ea-callout a{font-size:0.8em}[data-ea-publisher].loaded.dark .ea-content,[data-ea-type].loaded.dark .ea-content{background:rgba(255,255,255,0.05);color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-content a:link,[data-ea-type].loaded.dark .ea-content a:link{color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-content a:visited,[data-ea-type].loaded.dark .ea-content a:visited{color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-content a:hover,[data-ea-type].loaded.dark .ea-content a:hover{color:#f6f6f6}[data-ea-publisher].loaded.dark .ea-content a:active,[data-ea-type].loaded.dark .ea-content a:active{color:#f6f6f6}[data-ea-publisher].loaded.dark .ea-content a strong,[data-ea-publisher].loaded.dark .ea-content a b,[data-ea-type].loaded.dark .ea-content a strong,[data-ea-type].loaded.dark .ea-content a b{color:#50baf9}[data-ea-publisher].loaded.dark .ea-callout a:link,[data-ea-type].loaded.dark .ea-callout a:link{color:#c3c3c3}[data-ea-publisher].loaded.dark .ea-callout a:visited,[data-ea-type].loaded.dark .ea-callout a:visited{color:#c3c3c3}[data-ea-publisher].loaded.dark .ea-callout a:hover,[data-ea-type].loaded.dark .ea-callout a:hover{color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-callout a:active,[data-ea-type].loaded.dark .ea-callout a:active{color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-callout a strong,[data-ea-publisher].loaded.dark .ea-callout a b,[data-ea-type].loaded.dark .ea-callout a strong,[data-ea-type].loaded.dark .ea-callout a b{color:#50baf9}@media (prefers-color-scheme: dark){[data-ea-publisher].loaded.adaptive .ea-content,[data-ea-type].loaded.adaptive .ea-content{background:rgba(255,255,255,0.05);color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-content a:link,[data-ea-type].loaded.adaptive .ea-content a:link{color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-content a:visited,[data-ea-type].loaded.adaptive .ea-content a:visited{color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-content a:hover,[data-ea-type].loaded.adaptive .ea-content a:hover{color:#f6f6f6}[data-ea-publisher].loaded.adaptive .ea-content a:active,[data-ea-type].loaded.adaptive .ea-content a:active{color:#f6f6f6}[data-ea-publisher].loaded.adaptive .ea-content a strong,[data-ea-publisher].loaded.adaptive .ea-content a b,[data-ea-type].loaded.adaptive .ea-content a strong,[data-ea-type].loaded.adaptive .ea-content a b{color:#50baf9}[data-ea-publisher].loaded.adaptive .ea-callout a:link,[data-ea-type].loaded.adaptive .ea-callout a:link{color:#c3c3c3}[data-ea-publisher].loaded.adaptive .ea-callout a:visited,[data-ea-type].loaded.adaptive .ea-callout a:visited{color:#c3c3c3}[data-ea-publisher].loaded.adaptive .ea-callout a:hover,[data-ea-type].loaded.adaptive .ea-callout a:hover{color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-callout a:active,[data-ea-type].loaded.adaptive .ea-callout a:active{color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-callout a strong,[data-ea-publisher].loaded.adaptive .ea-callout a b,[data-ea-type].loaded.adaptive .ea-callout a strong,[data-ea-type].loaded.adaptive .ea-callout a b{color:#50baf9}}[data-ea-publisher].loaded .ea-content,[data-ea-type].loaded .ea-content{border:0px;border-radius:3px;box-shadow:0px 2px 3px rgba(0,0,0,0.15)}[data-ea-publisher].loaded.raised .ea-content,[data-ea-type].loaded.raised .ea-content{border:0px;border-radius:3px;box-shadow:0px 2px 3px rgba(0,0,0,0.15)}[data-ea-publisher].loaded.bordered .ea-content,[data-ea-type].loaded.bordered .ea-content{border:1px solid rgba(0,0,0,0.04);border-radius:3px;box-shadow:none}[data-ea-publisher].loaded.bordered.dark .ea-content,[data-ea-type].loaded.bordered.dark .ea-content{border:1px solid rgba(255,255,255,0.07)}@media (prefers-color-scheme: dark){[data-ea-publisher].loaded.bordered.adaptive .ea-content,[data-ea-type].loaded.bordered.adaptive .ea-content{border:1px solid rgba(255,255,255,0.07)}}[data-ea-publisher].loaded.flat .ea-content,[data-ea-type].loaded.flat .ea-content{border:0px;border-radius:3px;box-shadow:none}[data-ea-type="image"].loaded,[data-ea-publisher]:not([data-ea-type]).loaded,.ea-type-image{display:inline-block}[data-ea-type="image"].loaded .ea-content,[data-ea-publisher]:not([data-ea-type]).loaded .ea-content,.ea-type-image .ea-content{max-width:180px;overflow:auto;text-align:center}[data-ea-type="image"].loaded .ea-content>a>img,[data-ea-publisher]:not([data-ea-type]).loaded .ea-content>a>img,.ea-type-image .ea-content>a>img{width:120px;height:90px;display:inline-block}[data-ea-type="image"].loaded .ea-content>.ea-text,[data-ea-publisher]:not([data-ea-type]).loaded .ea-content>.ea-text,.ea-type-image .ea-content>.ea-text{margin-top:1em;font-size:1em;text-align:center}[data-ea-type="image"].loaded .ea-callout,[data-ea-publisher]:not([data-ea-type]).loaded .ea-callout,.ea-type-image .ea-callout{max-width:180px;margin:0em 1em 1em 1em;padding-left:1em;padding-right:1em;font-style:italic;text-align:right}[data-ea-type="image"].loaded.horizontal .ea-content,[data-ea-publisher]:not([data-ea-type]).loaded.horizontal .ea-content,.ea-type-image.horizontal .ea-content{max-width:320px}[data-ea-type="image"].loaded.horizontal .ea-content>a>img,[data-ea-publisher]:not([data-ea-type]).loaded.horizontal .ea-content>a>img,.ea-type-image.horizontal .ea-content>a>img{float:left;margin-right:1em}[data-ea-type="image"].loaded.horizontal .ea-content .ea-text,[data-ea-publisher]:not([data-ea-type]).loaded.horizontal .ea-content .ea-text,.ea-type-image.horizontal .ea-content .ea-text{margin-top:0em;text-align:left;overflow:auto}[data-ea-type="image"].loaded.horizontal .ea-callout,[data-ea-publisher]:not([data-ea-type]).loaded.horizontal .ea-callout,.ea-type-image.horizontal .ea-callout{max-width:320px;text-align:right}[data-ea-type="text"].loaded,.ea-type-text{font-size:14px}[data-ea-type="text"].loaded .ea-content,.ea-type-text .ea-content{text-align:left}[data-ea-type="text"].loaded .ea-callout,.ea-type-text .ea-callout{margin:0.5em 1em 1em 1em;padding-left:1em;padding-right:1em;text-align:right;font-style:italic}
+</style><script src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/saved_resource" type="text/javascript" async=""></script></head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="extract-text-from-a-pdf-using-python-part-2">
+<span id="tutorial-composable"></span><h1>Extract text from a PDF using Python - part 2<a class="headerlink" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/composable.html#extract-text-from-a-pdf-using-python-part-2" title="Permalink to this headline">¶</a></h1>
+<p>The command line tools and the high-level API are just shortcuts for often
+used combinations of pdfminer.six components. You can use these components to
+modify pdfminer.six to your own needs.</p>
+<p>For example, to extract the text from a PDF file and save it in a python
+variable:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">io</span> <span class="kn">import</span> <span class="n">StringIO</span>
+
+<span class="kn">from</span> <span class="nn">pdfminer.converter</span> <span class="kn">import</span> <span class="n">TextConverter</span>
+<span class="kn">from</span> <span class="nn">pdfminer.layout</span> <span class="kn">import</span> <span class="n">LAParams</span>
+<span class="kn">from</span> <span class="nn">pdfminer.pdfdocument</span> <span class="kn">import</span> <span class="n">PDFDocument</span>
+<span class="kn">from</span> <span class="nn">pdfminer.pdfinterp</span> <span class="kn">import</span> <span class="n">PDFResourceManager</span><span class="p">,</span> <span class="n">PDFPageInterpreter</span>
+<span class="kn">from</span> <span class="nn">pdfminer.pdfpage</span> <span class="kn">import</span> <span class="n">PDFPage</span>
+<span class="kn">from</span> <span class="nn">pdfminer.pdfparser</span> <span class="kn">import</span> <span class="n">PDFParser</span>
+
+<span class="n">output_string</span> <span class="o">=</span> <span class="n">StringIO</span><span class="p">()</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'samples/simple1.pdf'</span><span class="p">,</span> <span class="s1">'rb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">in_file</span><span class="p">:</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">PDFParser</span><span class="p">(</span><span class="n">in_file</span><span class="p">)</span>
+    <span class="n">doc</span> <span class="o">=</span> <span class="n">PDFDocument</span><span class="p">(</span><span class="n">parser</span><span class="p">)</span>
+    <span class="n">rsrcmgr</span> <span class="o">=</span> <span class="n">PDFResourceManager</span><span class="p">()</span>
+    <span class="n">device</span> <span class="o">=</span> <span class="n">TextConverter</span><span class="p">(</span><span class="n">rsrcmgr</span><span class="p">,</span> <span class="n">output_string</span><span class="p">,</span> <span class="n">laparams</span><span class="o">=</span><span class="n">LAParams</span><span class="p">())</span>
+    <span class="n">interpreter</span> <span class="o">=</span> <span class="n">PDFPageInterpreter</span><span class="p">(</span><span class="n">rsrcmgr</span><span class="p">,</span> <span class="n">device</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">page</span> <span class="ow">in</span> <span class="n">PDFPage</span><span class="o">.</span><span class="n">create_pages</span><span class="p">(</span><span class="n">doc</span><span class="p">):</span>
+        <span class="n">interpreter</span><span class="o">.</span><span class="n">process_page</span><span class="p">(</span><span class="n">page</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">output_string</span><span class="o">.</span><span class="n">getvalue</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+
+
+          <div id="rtd-sidebar" data-ea-publisher="readthedocs" data-ea-type="readthedocs-sidebar" data-ea-manual="true" class="ethical-alabaster loaded" data-ea-keywords="parser|pdf|python|readthedocs-project-517571|readthedocs-project-pdfminersix" data-ea-campaign-types="community|house|paid"><div class="ethical-sidebar"><div class="ethical-content"><a href="https://server.ethicalads.io/proxy/click/1381/f7a02fe2-52fc-4ffa-852d-eaa5e8bdf133/" rel="nofollow noopener" target="_blank" class="ethical-image-link"><img src="./Extract text from a PDF using Python - part 2 — pdfminer.six 20201018 documentation_files/3b49064077f54766e302af85c6d01aac187d0b94.png" alt="Sponsored: Datadog"></a><div class="ethical-text"><a href="https://server.ethicalads.io/proxy/click/1381/f7a02fe2-52fc-4ffa-852d-eaa5e8bdf133/" rel="nofollow noopener" target="_blank"><strong>Collect &amp; monitor Python </strong><span>applications logs, traces, and custom metrics with Datadog.</span><strong> Try it for free!</strong></a></div></div><div class="ethical-callout"><small><em><a href="https://www.ethicalads.io/advertisers/?ref=rtd-sidebar">Sponsored</a><span> · </span><a href="https://docs.readthedocs.io/en/latest/ethical-advertising.html">Ads served ethically</a></em></small></div></div></div></div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="https://pdfminersix.readthedocs.io/en/latest/index.html">pdfminer.six</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/index.html">Tutorials</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/install.html">Install pdfminer.six as a Python package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/commandline.html">Extract text from a PDF using the commandline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/highlevel.html">Extract text from a PDF using Python</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/composable.html#">Extract text from a PDF using Python - part 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://pdfminersix.readthedocs.io/en/latest/tutorial/extract_pages.html">Extract elements from a PDF using Python</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://pdfminersix.readthedocs.io/en/latest/howto/index.html">How-to guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pdfminersix.readthedocs.io/en/latest/topic/index.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pdfminersix.readthedocs.io/en/latest/reference/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://pdfminersix.readthedocs.io/en/latest/faq.html">Frequently asked questions</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="https://pdfminersix.readthedocs.io/en/latest/index.html">Documentation overview</a><ul>
+  <li><a href="https://pdfminersix.readthedocs.io/en/latest/tutorial/index.html">Tutorials</a><ul>
+      <li>Previous: <a href="https://pdfminersix.readthedocs.io/en/latest/tutorial/highlevel.html" title="previous chapter">Extract text from a PDF using Python</a></li>
+      <li>Next: <a href="https://pdfminersix.readthedocs.io/en/latest/tutorial/extract_pages.html" title="next chapter">Extract elements from a PDF using Python</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="https://pdfminersix.readthedocs.io/en/latest/search.html" method="get">
+      <input type="text" name="q">
+      <input type="submit" value="Go">
+      <input type="hidden" name="check_keywords" value="yes">
+      <input type="hidden" name="area" value="default">
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      ©2019, Yusuke Shinyama, Philippe Guglielmetti &amp; Pieter Marsman.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="https://pdfminersix.readthedocs.io/en/latest/_sources/tutorial/composable.rst.txt" rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  
+<!-- Inserted RTD Footer -->
+
+<div class="injected">
+
+  
+  <div class="rst-versions rst-badge" data-toggle="rst-versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book">&nbsp;</span>
+      v: latest
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+
+      
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+        <dd class="rtd-current-item">
+          <a href="https://pdfminersix.readthedocs.io/en/latest/tutorial/composable.html">latest</a>
+        </dd>
+        
+        <dd>
+          <a href="https://pdfminersix.readthedocs.io/en/develop/tutorial/composable.html">develop</a>
+        </dd>
+        
+      </dl>
+      
+      
+
+      
+      
+      <dl>
+        <dt>Downloads</dt>
+        
+        <dd><a href="https://pdfminersix.readthedocs.io/_/downloads/en/latest/pdf/">PDF</a></dd>
+        
+        <dd><a href="https://pdfminersix.readthedocs.io/_/downloads/en/latest/htmlzip/">HTML</a></dd>
+        
+        <dd><a href="https://pdfminersix.readthedocs.io/_/downloads/en/latest/epub/">Epub</a></dd>
+        
+      </dl>
+      
+      
+
+      
+      <dl>
+        
+        <!-- These are kept as relative links for internal installs that are http -->
+        <dt>On Read the Docs</dt>
+        <dd>
+          <a href="https://readthedocs.org/projects/pdfminersix/">Project Home</a>
+        </dd>
+        <dd>
+          <a href="https://readthedocs.org/projects/pdfminersix/builds/">Builds</a>
+        </dd>
+        <dd>
+          <a href="https://readthedocs.org/projects/pdfminersix/downloads/">Downloads</a>
+        </dd>
+      </dl>
+      
+
+      
+
+      
+      <dl>
+        <dt>On GitHub</dt>
+        <dd>
+          <a href="https://github.com/pdfminer/pdfminer.six/blob/master/docs/source/tutorial/composable.rst">View</a>
+        </dd>
+        
+        <dd>
+          <a href="https://github.com/pdfminer/pdfminer.six/edit/master/docs/source/tutorial/composable.rst">Edit</a>
+        </dd>
+        
+      </dl>
+      
+      
+
+      
+      <dl>
+        <dt>Search</dt>
+        <dd>
+          <div style="padding: 6px;">
+            
+            <form id="flyout-search-form" class="wy-form" target="_blank" action="https://readthedocs.org/projects/pdfminersix/search/" method="get">
+              <input type="text" name="q" aria-label="Search docs" placeholder="Search docs">
+              </form>
+          </div>
+        </dd>
+      </dl>
+      
+
+      
+      
+
+      <hr>
+      
+        <small>
+          <span>Hosted by <a href="https://readthedocs.org/">Read the Docs</a></span>
+          <span> · </span>
+          <a href="https://docs.readthedocs.io/page/privacy-policy.html">Privacy Policy</a>
+        </small>
+      
+
+      
+    </div>
+  </div>
+  
+
+</div>
+</body></html>
