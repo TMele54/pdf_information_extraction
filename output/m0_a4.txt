@@ -1,0 +1,1293 @@
+Journal of Cancer 2017, Vol. 8 
+ 
+
+Ivyspring  
+International Publisher 
+ 
+
+Research Paper 
+
+1347 
+
+JJoouurrnnaall  ooff  CCaanncceerr  
+
+2017; 8(8): 1347-1354. doi: 10.7150/jca.18450 
+
+Ratio of Autoantibodies of Tumor Suppressor AIMP2 
+and Its Oncogenic Variant Is Associated with Clinical 
+Outcome in Lung Cancer 
+
+Ji Ye Jung1, Eun Young Kim1, Arum Kim2, Joon Chang1, Nam Hoon Kwon3, Youngji Moon3, Eun Joo Kang3, 
+Jun Sik Sung3, Hyunbo Shim4, Sunghoon Kim3, 5, Yoon Soo Chang2 
+
+1.  Division of Pulmonology, Department of Internal Medicine, Severance Hospital, Yonsei University College of Medicine, Seoul, Korea; 
+2.  Division of Pulmonology, Department of Internal Medicine, Gangnam Severance Hospital, Yonsei University College of Medicine, Seoul, Korea; 
+3.  Medicinal Bioconvergence Research Center, Seoul National University, Seoul, Korea; 
+4.  Department of Life Science and Pharmaceutical Science, Ewha Womans University, Seoul, Korea; 
+5.  WCU Department of Molecular Medicine and Biopharmaceutical Sciences, Seoul National University, Suwon, Korea. 
+
+ Corresponding author: Yoon Soo Chang, 8th Floor, Annex Building, 211 Eonju-ro, Gangnam-gu, Seoul 06273, Republic of Korea. Tel.: +82-2-2019-3309, Fax: 
++82-2-3463-3882. E-mail address: yschang@yuhs.ac 
+
+©  Ivyspring  International  Publisher.  This  is  an  open  access  article  distributed  under  the  terms  of  the  Creative  Commons  Attribution  (CC  BY-NC)  license 
+(https://creativecommons.org/licenses/by-nc/4.0/). See http://ivyspring.com/terms for full terms and conditions. 
+
+Received: 2016.11.22; Accepted: 2017.03.06; Published: 2017.05.12 
+
+Abstract 
+
+Aminoacyl-tRNA  synthetase-interacting  multi-functional  protein  2  (AIMP2)  works  as  potent 
+tumor suppressor, while its splicing variant lacking exon 2 (AIMP2-DX2) competes with AIMP2 for 
+binding to target proteins and compromises its anti-tumor activity. Assuming that AIMP2 and its 
+variant AIMP2-DX2 could be released out to human sera in pathological condition, we investigated 
+the  diagnostic  and  prognostic  usefulness  of  autoantibodies  against  AIMP2  and  AIMP2-DX2  by 
+measuring their serum levels  in 80 normal and lung cancer samples that were matched  in age, 
+gender  and  smoking  status.  The  area  under  the  curve  of  AIMP2-DX2,  AIMP2,  and 
+AIMP2-DX2/AIMP2 autoantibody ratio was low (0.416, 0.579, and 0.357, respectively), suggesting 
+limited  diagnostic  value.  A  total  of  165  lung  cancer  patients  were  classified  into  low  and  high 
+AIMP2-DX2, AIMP2, and AIMP2-DX2/AIMP2 based on the median expression of each parameter. 
+The high AIMP2-DX2 group was older and had larger tumors (>3 cm) than the low AIMP2-DX2 
+group. The high AIMP2-DX2/AIMP2 group had higher CYFRA-21 levels and significantly shorter 
+overall survival than the low AIMP2-DX2/AIMP2 group (18.6 vs. 48.9 months, P = 0.021, Log Rank 
+Test). Taken together, autoantibodies against AIMP2-DX2 and AIMP2 are detectable in the human 
+blood and the increased ratio of AIMP2-DX2/AIMP2 is related to poor clinical outcome of lung 
+cancer. 
+
+Key  words:  Aminoacyl  t-RNA  synthetase  (ARS),  Aminoacyl  t-RNA  synthetase-interacting  multi-functional 
+protein  2  (AIMP2),  Aminoacyl  t-RNA  synthetase-interacting  multi-functional  protein  2–exon  2  deletion 
+(AIMP2-DX2), Autoantibody, Lung cancer. 
+
+Introduction 
+
+Lung  cancer 
+
+is  the  second  most  common 
+malignancy, accounting for more than one-quarter of 
+all  cancer  deaths  in  the  United  States.[1]  Despite  the 
+unremitting  efforts  toward  biomarker  discovery  and 
+the  development 
+and 
+immunotherapy,  lung  cancer  is  by  far  the  leading 
+cause  of  cancer  death  with  poor  prognosis. 
+Development of effective tools for early diagnosis and 
+
+targeted 
+
+therapy 
+
+of 
+
+new  therapeutic  strategies  based  on  lung  cancer 
+biology  are  urgently  needed  to  improve  its  clinical 
+outcome. 
+
+Aminoacyl-tRNA  synthetase-interacting  multi- 
+functional  proteins  (AIMPs)  are  scaffolding  proteins 
+for  the  assembly  of  the  macromolecular  tRNA 
+synthetase  complex.  Among  the  3  types  of  AIMPs, 
+AIMP2  (also  known  as  p38  and  JTV1)  possesses 
+
+ 
+http://www.jcancer.org 
+
+ Journal of Cancer 2017, Vol. 8 
+
+1348 
+
+anti-proliferative  and  cell  death-promoting  activity 
+through  multiple  pathways  such  as  tumor-derived 
+growth  factor  (TGF)-β,  p53,  tumor  necrosis  factor 
+(TNF)-α  signaling  and  Wnt  signaling.[2-8]  Mice 
+lacking  AIMP2  die  neonatally  due  to  respiratory 
+failure  resulting  from  uncontrolled  proliferation  of 
+lung epithelial cells. AIMP2 heterozygous mice (with 
+reduced  expression  of  AIMP2)  show  a  higher 
+susceptibility  to  tumorigenesis.[5]  These  findings 
+indicate  that  AIMP2  is  a  haploinsufficient  tumor 
+suppressor with a unique working mechanism.[2]  
+
+A variant of AIMP2 in which exon 2 is deleted by 
+alternative splicing, AIMP2-DX2, has been detected in 
+cancer cell lines and tissues.[9] AIMP2-DX2 competes 
+with AIMP2 for the binding to target proteins (namely 
+FUSE-binding protein [FBP], TNF receptor-associated 
+factor  2  [TRAF2],  and  p53),  consequently  inhibiting 
+the  tumor  suppressive  activity  of  AIMP2.  Increased 
+ratio  of  AIMP2-DX2  versus  AIMP2  showed  positive 
+correlation to poor clinical outcome of lung cancer, as 
+well  as  chemoresistance  of  ovarian  cancer.[2,  9]  The 
+the 
+synthetic 
+AIMP2-DX2  mRNA 
+the 
+inhibition  of  the  AIMP2-DX2  activity  and  tumor 
+suppression.[10]  Taken  together,  these  data  suggest 
+that AIMP2-DX2 is an attractive candidate for cancer 
+diagnosis and therapy. 
+
+compound,  BC-DXI01suppressed 
+to 
+transcript, 
+
+leading 
+
+In  this  study,  AIMP2-DX2  expression  was 
+examined  in  lung  cancer  using  Kras  and  Kras:p53fl/fl 
+mouse  lung  cancer  models  and  human  lung  cancer 
+tissues.  Moreover,  the  presence  of  autoantibodies 
+against  AIMP2-DX2  and  AIMP2  in  the  blood  was 
+investigated by enzyme-linked immunosorbent assay 
+(ELISA).  We  sought  to  find  the  diagnostic  and 
+prognostic usefulness of these autoantibodies in lung 
+cancer patients. 
+
+Materials and Methods 
+
+Tissue samples 
+
+LSL-Kras 
+
+G12D:p53fl/fl 
+
+Mouse  tissues  were  obtained  from  wild-type 
+C57BL/6, LSL-Kras G12D, and LSL-Kras G12D:p53fl/fl 
+mice. For mouse lung cancer tissues, LSL-Kras G12D 
+mice 
+and 
+(http://mouse.ncifcrf.gov/)  inhaled  5  ×  107  PFU 
+AdCre particles at 8 weeks of age and sacrificed at 8 
+and  24  weeks  after  inhalation,  respectively.  This 
+animal  study  was  approved  by  our  Institutional 
+Animal  Care  and  Use  Committee  (2014-0229-1), 
+following the guidelines of the American Association 
+for  the  Assessment  and  Accreditation  of  Laboratory 
+Animal  Care.  A 
+formalin-fixed, 
+paraffin-embedded human lung cancer tissues, and 12 
+pairs  of  lung  cancer  and  adjacent  normal-appearing 
+lung tissue lysates were obtained from tissue archives 
+
+total  of  275 
+
+of affiliated hospitals of Yonsei University College of 
+Medicine.  The  use  of  clinical  samples  was  approved 
+by  the  Institutional  Review  Board  of  the  Severance 
+Hospital  (#4-2013-0556)  and  Gangnam  Severance 
+Hospital (#3-2014-0838). 
+
+Serum samples 
+
+cancer 
+
+cases  were 
+
+The  serum  samples  from  lung  cancer  patients 
+and  control  subjects  were  obtained  from  those  who 
+had  presented  to  Severance  Hospital  and  Gangnam 
+Severance Hospital between 2011 September and 2015 
+January.  Lung 
+confirmed 
+pathologically  and  did  not  present  with  any  other 
+types  of  cancer.  Control  cases  were  1:1  age-,  gender- 
+and smoking status-matched and did not present with 
+any type of cancer. A total of 165 samples from lung 
+cancer patients were included. Informed consent was 
+obtained  from  all  study  subjects,  and  all  protocols 
+were  approved  by  the  Institutional  Review  Board  of 
+the Severance Hospital (#4-2013-0556) and Gangnam 
+Severance  Hospital  (#3-2014-0838).  The  study  was 
+carried  out  in  accordance  with  the  Declaration  of 
+Helsinki and Korean GCP guidelines. 
+
+Immunoblotting 
+
+Tissues were harvested using 2× LSB lysis buffer 
+inhibitors 
+containing  protease  and  phosphatase 
+(GenDepo,  Korea)  on  ice.  After  homogenization  and 
+sonication,  30–50 mg  of  lysates  was  separated  by  gel 
+electrophoresis  on  7.5–12%  polyacrylamide  gels  and 
+transferred  onto  nitrocellulose  membranes  (Bio-Rad 
+Laboratories, 
+Inc.,  Richmond,  CA,  USA).  The 
+expression level of each protein was measured using 
+Image  J  (http://rsbweb.nih.gov/ij/)  and  quantified 
+relative to that of β-actin. 
+
+Immunohistochemistry (IHC) 
+
+Expression of AIMP2-DX2 in mouse lung tissue 
+and  human  lung  cancer  tissue  was  analyzed  by  IHC 
+using  the  LABS®2  System  (Dako,  Carpinteria,  CA, 
+USA)  according  to  the  manufacturer’s  instructions. 
+Briefly,  sections  were  deparaffinized,  rehydrated, 
+immersed  in  H2O2  methanol  solution,  and  then 
+incubated overnight with  primary antibodies against 
+AIMP2-DX2  obtained  by  rabbit  immunization  at  a 
+1:2,000  dilution.  Sections  were  incubated  for  10 
+minutes with biotinylated linker and processed using 
+3,3 ′
+avidin/biotin 
+-Diaminobenzidine  (DAB)  was  used  as  a  chromogen 
+in  conjunction  with  the  Liquid  DAB  Substrate  kit 
+(Novacastra,  UK).  Expression  of  AIMP2-DX2  was 
+evaluated  using  a  scoring  system  that  takes  into 
+account 
+intensity  and 
+percentage  of  positive  cells.  Staining  intensity  was 
+classified as 0, 1, 2, and 3 and frequency was classified 
+
+the  product  of  staining 
+
+techniques. 
+
+IHC 
+
+ 
+http://www.jcancer.org 
+
+ Journal of Cancer 2017, Vol. 8 
+
+1349 
+
+as 0 (<10%), 1 (10–50%), 2 (51–80%), and 3 (>80%) (Fig. 
+S1). The cases were classified into 2 groups according 
+to  the  AIMP2-DX2  expression  in  the  cytoplasm  and 
+nucleus.  Cases  with 
+cytoplasmic  AIMP2-DX2 
+expression intensity and frequency equal to or greater 
+than 4 were defined as having high expression; those 
+with 3 or less were defined as having low expression. 
+Cases with nuclear AIMP2-DX2 expression equal to or 
+greater 
+than  1  were  defined  as  having  high 
+expression; those with 0 were defined as having low 
+expression. 
+
+Measurement of serum autoantibodies against 
+AIMP2 and AIMP2-DX2 
+
+The  96-well  plates  were  coated  with  either 
+His-tagged AIMP2-DX2 or His-tagged AIMP2 protein 
+(Neomix  Inc,  Korea)  overnight  at  4°C,  and  then 
+blocked with 1% bovine serum albumin for 1 hour at 
+room temperature. After adding 1:500 diluted serum, 
+1:10,000 dilution anti-human immunoglobulin G was 
+added  and  incubated  for  another  1  hour  at  room 
+temperature.  The  enzyme  activity  was  visualized  by 
+adding  3,3′,  5,5′-tetramethylbenzidine 
+substrate 
+(TMB;  Thermo  Fisher  Scientific)  for  10  minutes  and 
+the  reaction  was  stopped  by  2N  H2SO4.  The 
+absorbance  was  measured  at  450  nm  was  measured. 
+The  intra-assay  variation  of  AIMP2-DX2  and  AIMP2 
+was  8.7% 
+(1.6–10.4%), 
+(6.8–11.5%)  and  6.3% 
+respectively. The inter-assay (plate-to-plate) variation 
+was  15.9%  (13.7–17.9%)  and  12.2%  (8.9–16.1%), 
+respectively. Lung cancer patients were classified into 
+2  groups,  high  and  low,  on  the  basis  of  the  median 
+values 
+and 
+of 
+AIMP2-DX2/AIMP2 ratio. 
+
+AIMP2-DX2, 
+
+AIMP2, 
+
+Statistical analysis 
+
+Significant  differences  in  clinical  characteristics 
+according to the expression of AIMP2-DX2 by IHC in 
+tissues,  and  AIMP2-DX2,  AIMP2,  and 
+lung 
+AIMP2-DX2/AIMP2 
+ratio  were 
+autoantibody 
+analyzed  using  the  χ2-test,  Fisher’s  exact  test,  and 
+independent  2-sample  t-test.  Predictive  factors  for 
+overall survival (OS) and progression/recurrence-free 
+survival 
+the 
+Kaplan–Meier method and Cox proportional hazards 
+model. All  tests  of  significance  were  2-tailed.  A 
+P-value  less  than  0.05  was  interpreted  as  statistical 
+significance. All analyses were performed using SPSS 
+version 20 (SPSS Inc., Chicago, IL, USA). 
+
+(PFS)  were 
+
+calculated 
+
+using 
+
+Results 
+
+AIMP2-DX2 is overexpressed in lung cancer 
+tissue 
+
+To  explore  AIMP2-DX2  as  a  biomarker  of  lung 
+cancer,  its  expression  was  first  evaluated  in  the 
+
+Lung 
+
+inhalation 
+
+cancer-specific 
+
+the  antibody  specific 
+
+non-neoplastic lung tissue from 8-week-old wild-type 
+to 
+C57BL/6  mice  using 
+AIMP2-DX2  (Fig.  S2A).  Cells  comprising  alveolar 
+structure  did  not  express  AIMP2-DX2,  while 
+bronchial epithelial cells showed weak expression. To 
+evaluate if AIMP2-DX2 expression is specific to lung 
+cancer,  its  expression  was  evaluated  in  lung  cancer 
+tissues. 
+AIMP2-DX2 
+overexpression  was  observed  in  Kras-LSL  G12D  and 
+Kras-LSL  G12D:p53fl/fl  murine  lung  cancer  models 
+induced  by  AdCre 
+(Fig.  S2B).  The 
+expression  of  AIMP2-DX2  was  also  evaluated  in 
+normal-appearing  human  tissues  adjacent  to  lung 
+cancer  tissues  (Fig.  S2C).  AIMP2-DX2  was  not 
+expressed in type I and type II pneumocytes and was 
+weakly  expressed  in  the  epithelial  cells  of  the 
+bronchioles  and  bronchi.  In  human  lung  cancer 
+tissues, AIMP2-DX2 was strongly expressed mainly in 
+the  cytoplasm  of  adenocarcinoma,  squamous  cell 
+carcinoma,  and  small  cell  lung  cancer,  and  weakly 
+expressed  in  large  cell  carcinoma  (Fig.  S2D).  Lung 
+cancer-specific  AIMP2-DX2  overexpression  was 
+further evaluated by immunoblotting. In mouse lung 
+tissue,  AIMP2-DX2  expression  was  stronger  in  lung 
+cancer  than  in  normal  lungs  (Fig.  S2E).  Among  12 
+pairs  of  human  lung  cancer  tissue  and  adjacent 
+normal-appearing lung tissue, 7 pairs (58.3%) showed 
+stronger overexpression of AIMP2-DX2 in lung cancer 
+tissue  (Fig.  S2F).  To  further  validate  its  clinical 
+its  expression  was 
+implication 
+assessed  in  275  formalin-fixed,  paraffin-embedded 
+lung cancer tissues. The baseline characteristics of the 
+275 patients are shown in Table S1. The distribution of 
+cytoplasmic  and  nuclear  AIMP2-DX2  expression  by 
+IHC  is  shown  in  Fig.  S2G  and  S2H.  Among  the  275 
+patients,  270  (98.2%)  showed  positive  cytoplasmic 
+AIMP2-DX2  expression  while  91  (33.1%)  showed 
+positive  nuclear  AIMP2-DX2  expression.  The  clinical 
+and pathological characteristics of patients with high 
+and low cytoplasmic/nuclear expression are shown in 
+Table  S2.  High  cytoplasmic  (39.6%  vs.  28.6%,  P  = 
+0.055) and nuclear AIMP2-DX2 expression (42.9% vs. 
+30.4%,  P  =  0.042)  was  more  frequent  in  advanced 
+stages  (III–IV)  than  in  earlier  stages  (I–II).  High 
+cytoplasmic (58.2% vs. 40.2%, P = 0.003) and nuclear 
+AIMP2-DX2  expression  (58.4%  vs.  45.8%,  P  =  0.052) 
+in 
+was  more  frequent 
+squamous  cell  carcinoma.  However,  the  level  of 
+AIMP2-DX2  expression  was  not  related  with  clinical 
+outcome,  with  no  significant  differences  in  OS  and 
+PFS (Fig. S3). 
+
+in  adenocarcinoma  than 
+
+lung  cancer, 
+
+in 
+
+Autoantibodies against AIMP2-DX2 and 
+AIMP2 are detectable in the human blood 
+
+The  baseline  characteristics  of  age,  gender,  and 
+
+ 
+http://www.jcancer.org 
+
+ Journal of Cancer 2017, Vol. 8 
+
+1350 
+
+smoking  habits  were  not  different  between  lung 
+cancer (n = 80) and control patients (n = 80) (Table 1). 
+Interestingly, autoantibodies against AIMP2-DX2 and 
+AIMP2 were detectable in the serum (Fig. 1A). When 
+their diagnostic usefulness was evaluated by receiver 
+operating characteristic curve analysis, the area under 
+the 
+and 
+AIMP2-DX2/AIMP2  autoantibody  ratio  was  0.416, 
+0.579,  and  0.357,  respectively,  suggesting  that  their 
+diagnostic value in lung cancer is limited (Fig. 1B). 
+
+of  AIMP2-DX2,  AIMP2, 
+
+curve 
+
+Table  1.  Baseline  characteristics  of  control  and  lung  cancer 
+patientsa 
+
+Baseline characteristics 
+
+Control (n=80)  Lung cancer 
+
+P-value 
+
+68.2 ± 12.5 
+Age 
+Gender, male 
+63 (78.8) 
+Smoking status, ever-smoker  59 (73.8) 
+Pack years (including 
+none-smokers) 
+
+32.6 ± 28.8 
+
+(n=80) 
+68.5 ± 9.3 
+61 (76.3) 
+59 (73.8) 
+35.5 ± 30.5 
+
+0.869 
+0.705 
+1.000 
+0.549 
+
+a Data are presented as numbers (percentages) unless otherwise indicated. 
+Plus-minus values are means±standard deviation. 
+
+ 
+ 
+
+ 
+ 
+
+Figure 1. Histogram for distribution of AIMP2-DX2, AIMP2, and AIMP2-DX2/AIMP2 autoantibody ratio and receiver operating characteristic 
+curve analysis of the diagnostic value for lung cancer. (A) Histogram for distribution of AIMP2-DX2, AIMP2, and AIMP2-DX2/AIMP2 autoantibody ratio in 
+control and lung cancer patients. (B) Receiver operating characteristic curve of AIMP2, AIMP2-DX2, and AIMP2-DX2/AIMP2 ratio for the diagnosis of lung cancer. 
+AIMP2: aminoacyl-tRNA synthetase-interacting multi-functional protein 2, AIMP2-DX2: aminoacyl-tRNA synthetase-interacting multi-functional protein 2–exon 2 
+deletion 
+
+ 
+
+ 
+http://www.jcancer.org 
+
+ Journal of Cancer 2017, Vol. 8 
+
+1351 
+
+Table 2. Characteristics of lung cancer patientsa 
+
+Characteristics 
+Age, yr 
+Sex, male 
+Smoking 
+Current 
+Former 
+Never 
+Histology 
+Adenocarcinoma 
+Squamous cell carcinoma 
+Small cell carcinoma 
+Large cell carcinoma 
+Size > 3cmb 
+Stage (n=149)c 
+1 
+2 
+3 
+4 
+Tumor markers 
+Elevated CEAd 
+Elevated CYFRA 21-1e 
+Novel markers, AU 
+AIMP2-DX2 
+AIMP2 
+AIMP2-DX2/AIMP2 
+Mortality (n=163)f 
+
+AIMP2-DX2 autoantibody levels are related 
+with tumor size 
+
+autoantibody 
+
+AIMP2-DX2  and  AIMP2  autoantibody  levels 
+were  measured  in  165  lung  cancer  patients,  and  the 
+AIMP2-DX2/AIMP2 
+ratio  was 
+calculated. The baseline characteristics of the included 
+patients are shown in Table 2. Mean age was 65 years 
+and 64.8% of the patients were male. About one-third 
+of  the  patients  were  never-smokers.  According  to 
+histologic  classification,  adenocarcinoma  was  the 
+most  common  type  (62.4%),  followed  by  squamous 
+cell  carcinoma  (25.5%).  AIMP2-DX2,  AIMP2,  and 
+AIMP2-DX2/AIMP2  autoantibody  ratio  levels  were 
+21.6 ± 9.2, 76.7 ± 33.8, and 31.7 ± 13.8 AU, respectively. 
+The  baseline  characteristics  of 
+low  and  high 
+AIMP2-DX2,  AIMP2,  and  AIMP2-DX2/AIMP2  ratio 
+groups are shown in Table 3. There was no statistical 
+difference  in  gender,  smoking,  histologic  diagnosis, 
+and  stage  between  high  and 
+low  group  of 
+AIMP2-DX2,  AIMP2,  and  AIMP2-DX2/AIMP2  ratio. 
+However,  the  high  AIMP2-DX2  autoantibody  group 
+was  older  (66.8  ±  8.4  vs.  63.8  ±  10.1  years,  P  =  0.040) 
+and had larger tumors (>3 cm) (26.9% vs. 12.7%, P = 
+0.045) than the low group. Elevated CYFRA-21 levels 
+were  more 
+the  high 
+frequently  observed 
+AIMP2-DX2/AIMP2  autoantibody  ratio  group  than 
+in the low group (58.8% vs. 41.2%, P = 0.037), but the 
+frequency  of  elevated  carcinoembryonic  antigen 
+(CEA) was similar between the groups. Moreover, the 
+high 
+mortality 
+AIMP2-DX2/AIMP2  autoantibody  ratio  group  than 
+in the low group (58.5% vs. 42.0%, P = 0.034). 
+
+rate  was 
+
+higher 
+
+the 
+
+in 
+
+in 
+
+n=165 
+65.3 ± 9.4 
+107 (64.8) 
+ 
+58 (35.2) 
+50 (30.3) 
+57 (34.5) 
+ 
+103 (62.4) 
+42 (25.5) 
+16 (9.7) 
+4 (2.4) 
+23 (18.5) 
+ 
+47 (31.5) 
+8 (5.4) 
+36 (24.2) 
+58 (38.9) 
+ 
+74 (49.3) 
+68 (47.6) 
+ 
+21.6 ± 9.2 
+76.7 ± 33.8 
+31.7 ± 13.8 
+82 (50.3) 
+
+a Data are presented as numbers (percentages) unless otherwise indicated. 
+Plus-minus values are means±standard deviation. 
+b n=124 
+c Small cell carcinoma was excluded 
+d > 5.0 ng/mL, n=150 
+e > 3.3 ng/mL, n=143 
+f Survival of two patients are unknown 
+CEA: carcinoembryonic antigen, AIMP2: aminoacyl-tRNA synthetase interacting 
+multi-functional protein 2, AIMP2-DX2: aminoacyl-tRNA synthetase interacting 
+multi-functional protein 2–exon 2 deletion (AIMP2-DX2) 
+
+Table 3. Baseline characteristics of low and high AIMP2-DX2, AIMP2, and AIMP2-DX2/AIMP2 autoantibody ratio groupsa 
+
+Characteristics 
+
+Age, yr 
+Sex, male 
+Smoking 
+Current 
+Former 
+Never 
+Histology 
+Adenocarcinoma 
+Squamous cell carcinoma 
+Small cell carcinoma 
+Large cell carcinoma 
+Size > 3cm 
+Stage (n=149) 
+I-II 
+III-IV 
+Tumor markers 
+Elevated CEAc 
+Elevated CYFRA-21d 
+Mortality 
+
+AIMP2-DX2b 
+Low 
+(n=82) 
+63.8 ± 10.1 
+52 (63.4) 
+ 
+32 (39.0) 
+23 (28.0) 
+27 (32.9) 
+ 
+55 (67.1) 
+18 (22.0) 
+8 (9.7) 
+1 (1.2) 
+9 (12.7) 
+ 
+34 (41.5) 
+48 (58.5) 
+ 
+42 (56.8) 
+38 (55.9) 
+37 (45.1) 
+
+High 
+(n=83) 
+66.8 ± 8.4 
+55 (67.1) 
+ 
+26 (31.7) 
+27 (32.9) 
+29 (35.4) 
+ 
+48 (57.3) 
+24 (29.2) 
+8 (9.8) 
+3 (3.7) 
+14 (26.9) 
+ 
+27 (33.3) 
+54 (66.7) 
+ 
+32 (43.2) 
+30 (44.1) 
+45 (56.3) 
+
+P-value 
+
+0.040 
+0.623 
+ 
+0.603 
+
+ 
+0.478 
+
+0.045 
+ 
+0.284 
+
+ 
+0.119 
+0.307 
+0.157 
+
+  AIMP2b 
+  Low 
+
+(n=82) 
+  64.1 ± 9.4 
+  51 (62.2) 
+   
+  27 (32.9) 
+  23 (28.0) 
+  32 (39.0) 
+   
+  53 (64.6) 
+  16 (19.5) 
+  10 (12.2) 
+  3 (3.7) 
+  12 (18.2) 
+   
+  28 (34.1) 
+  54 (65.9) 
+   
+  40 (54.1) 
+  37 (54.4) 
+  42 (51.9) 
+
+High 
+(n=83) 
+66.5 ± 9.3 
+56 (67.5) 
+ 
+31 (37.3) 
+27 (32.5) 
+25 (30.1) 
+ 
+50 (60.2) 
+26 (31.3) 
+6 (7.2) 
+1 (1.2) 
+11 (19.0) 
+ 
+34 (41.5) 
+48 (58.5) 
+ 
+34 (45.9) 
+31 (45.6) 
+40 (48.8) 
+
+P-value 
+
+  AIMP2-DX2/AIMP2b 
+  Low 
+
+P-value 
+
+0.113 
+0.478 
+ 
+0.484 
+
+ 
+0.216 
+
+0.911 
+ 
+0.334 
+
+ 
+0.193 
+0.278 
+0.695 
+
+(n=82) 
+  64.7 ± 9.5 
+  54 (65.9) 
+   
+  29 (35.4) 
+  27 (32.9) 
+  26 (31.7) 
+   
+  53 (64.6) 
+  20 (24.4) 
+  7 (8.5) 
+  2 (2.4) 
+  13 (20.0) 
+   
+  36 (44.4) 
+  26 (31.3) 
+   
+  35 (47.3) 
+  28 (41.2) 
+  34 (42.0) 
+
+High 
+(n=83) 
+65.9 ± 9.2 
+53 (63.9) 
+ 
+29 (34.9) 
+23 (27.7) 
+31 (37.3) 
+ 
+50 (60.2) 
+22 (26.5) 
+9 (10.8) 
+2 (2.4) 
+10 (16.9) 
+ 
+45 (55.6) 
+57 (68.7) 
+ 
+39 (52.7) 
+40 (58.8) 
+48 (58.5) 
+
+0.443 
+0.788 
+ 
+0.686 
+
+ 
+0.580 
+
+0.662 
+ 
+0.083 
+
+ 
+0.514 
+0.037 
+0.034 
+
+a Data are presented as numbers (percentages) unless otherwise indicated. Plus-minus values are means±standard deviation. 
+b High and low groups were classified on the basis of median value of AIMP2-DX2, AIMP2, and AIMP2-DX2/AIMP2 ratio, respectively  
+c > 5.0 ng/mL; n=75 for low group, n=75 for high group 
+d > 3.3 ng/mL; n=72 for low group, n=71 for high group 
+AIMP2: aminoacyl-tRNA synthetase interacting multi-functional protein 2, AIMP2-DX2: aminoacyl-tRNA synthetase interacting multi-functional protein 2–exon 2 deletion (AIMP2-DX2) 
+
+ 
+http://www.jcancer.org 
+
+ Journal of Cancer 2017, Vol. 8 
+
+1352 
+
+Elevated AIMP2-DX2/AIMP2 autoantibody 
+ratio is related with poor clinical outcome in 
+lung cancer 
+
+To evaluate the prognostic value of AIMP2-DX2, 
+AIMP2,  and  AIMP2-DX2/AIMP2  autoantibody  ratio 
+in  lung  cancer,  OS  and  PFS  were  compared  using 
+Kaplan–Meier  estimators  (Fig.  2).  There  were  no 
+significant  differences  in  PFS  and  OS  between  low 
+and  high  AIMP2-DX2  and  AIMP2  autoantibody 
+high 
+groups.  However, 
+AIMP2-DX2/AIMP2  autoantibody 
+ratio  showed 
+significantly shorter OS (18.4 months [95% confidence 
+interval  (CI)  15.1–21.7]  vs.  48.3  months  [95%  CI 
+14.6–81.9], P = 0.021). To evaluate the hypothesis that 
+high  AIMP2-DX2/AIMP2  ratio  is  an  independent 
+prognostic  factor  in  lung  cancer,  univariate  and 
+
+the  patients  with 
+
+ 
+
+and 
+
+multivariate  analyses  were  performed  using  a  Cox 
+(Table  4).  Univariate 
+regression  hazard  model 
+analysis  revealed  that  age,  female,  ever-smoker, 
+advanced  stages  (III–IV),  elevated  CEA,  elevated 
+CYFRA-21, 
+AIMP2-DX2/AIMP2 
+high 
+autoantibody  ratio  were  significant  predictors  for 
+poor  OS  while  adenocarcinoma  histology  was  a 
+significant  predictor  for  better  OS.  Multivariate 
+analysis  showed that advanced stages (III–IV) (HR  = 
+high 
+6.66, 
+AIMP2-DX2/AIMP2  autoantibody  ratio  (HR  =  1.83, 
+95%  CI  1.11–3.00)  were  significant 
+independent 
+factors  for  poor  OS  while  adenocarcinoma  histology 
+(HR  =  0.42,  95%  CI  0.23–0.76)  was  a  significant 
+predictor for better OS. 
+
+3.20–13.89) 
+
+95% 
+
+and 
+
+CI 
+
+Figure  2.  Impact  of  AIMP2-DX2,  AIMP2,  and  AIMP2-DX2/AIMP2  ratio  on  overall  survival  and  progression/recurrence-free  survival  in  lung  cancer 
+patients. (A) AIMP2-DX2, (B) AIMP2, and (C) AIMP2-DX2/AIMP2 ratio. High and low groups were classified on the basis of the median values of AIMP2-DX2, AIMP2, and 
+AIMP2-DX2/AIMP2 ratio. P-values were obtained by the log-rank test. AIMP2: aminoacyl-tRNA synthetase-interacting multi-functional protein 2, AIMP2-DX2: aminoacyl-tRNA 
+synthetase-interacting multi-functional protein 2–exon 2 deletion, OS: overall survival, PFS: progression/recurrence-free survival 
+
+ 
+
+ 
+http://www.jcancer.org 
+
+ Journal of Cancer 2017, Vol. 8 
+
+1353 
+
+Table 4. Univariate and multivariate Cox-regression analysis of overall survival 
+
+Characteristics 
+
+Age, yr 
+Sex, female 
+Smoking, ever-smoker 
+Histology 
+Adenocarcinoma 
+Squamous cell carcinoma 
+Size > 3cm 
+Stage, stage III-IV vs. I-II 
+Tumor markers 
+Elevated CEAa 
+Elevated CYFRA-21b 
+Novel markersc 
+High group of AIMP2-DX2 
+High group of AIMP2 
+High group of AIMP2-DX2/AIMP2 
+
+Univariate Analysis 
+HR 
+1.03 
+0.53 
+1.71 
+ 
+0.54 
+1.51 
+0.56 
+6.71 
+ 
+1.92 
+2.98 
+ 
+1.28 
+0.88 
+1.67 
+
+P-value 
+0.022 
+0.011 
+0.029 
+ 
+0.006 
+0.084 
+0.180 
+< 0.001 
+ 
+0.007 
+< 0.001 
+ 
+0.263 
+0.579 
+0.023 
+
+95% CI 
+1.00 - 1.06 
+0.32 - 0.86 
+1.06 - 2.77 
+ 
+0.35 - 0.84 
+0.95 - 2.42 
+0.24 - 1.31 
+3.45 - 13.05 
+ 
+1.20 - 3.07 
+1.82 - 4.86 
+ 
+0.83 - 1.98 
+0.57 - 1.37 
+1.07 - 2.60 
+
+  Multivariate Analysis 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+P-value 
+0.201 
+0.655 
+0.858 
+ 
+0.004 
+ 
+ 
+< 0.001 
+ 
+0.176 
+0.231 
+ 
+ 
+ 
+0.018 
+
+HR 
+1.02 
+0.76 
+1.12 
+ 
+0.42 
+ 
+ 
+6.66 
+ 
+1.44 
+1.40 
+ 
+ 
+ 
+1.83 
+
+95% CI 
+0.99 - 1.05 
+0.22 - 2.58 
+0.33 - 3.77 
+ 
+0.23 - 0.76 
+ 
+ 
+3.20 - 13.88 
+ 
+0.85 - 2.42 
+0.81 - 2.41 
+ 
+ 
+ 
+1.11 - 3.00 
+
+a > 5.0 ng/mL 
+b > 3.3 ng/mL 
+c High group was classified on the basis of median value of AIMP2-DX2, AIMP2, and AIMP2-DX2/AIMP2 ratio, respectively 
+AIMP2: aminoacyl-tRNA synthetase interacting multi-functional protein 2, AIMP2-DX2: aminoacyl-tRNA synthetase interacting multi-functional protein 2–exon 2 deletion 
+(AIMP2-DX2), HR: hazard ratio, CI: confidence interval 
+
+ 
+
+Discussion 
+
+tissue  expression  and 
+
+This  study  investigated  the  clinical  implications 
+of  AIMP2-DX2 
+serum 
+autoantibodies  in  lung  cancer  patients.  Although 
+AIMP2-DX2  was  frequently  overexpressed  in  lung 
+cancer tissues, and associated with  advanced disease 
+stages  and  adenocarcinoma,  diagnostic  usefulness  of 
+AIMP2-DX2 
+limited. 
+Autoantibodies against AIMP2-DX2 and AIMP2 exist 
+at  detectable  level  in  human  blood  and  increased 
+AIMP2-DX2/AIMP2  autoantibody  ratio  was  an 
+independent prognostic factor for poor OS in patients 
+with lung cancer.  
+
+autoantibody 
+
+was 
+
+Although  several  reports  have  suggested  the 
+tumor  promoting  role  of  AIMP2-DX2,  a  potential  of 
+AIMP2-DX2  as  a  biomarker  for  cancer  diagnosis, 
+treatment, and prognosis prediction is limited.[2-7] In 
+this  study,  we  used  immunohistological  analysis 
+using  AIMP2-DX2-specific  antibody 
+to  directly 
+monitor  AIMP2-DX2  at  protein  level  rather  than  its 
+transcript  level  and  found  its  frequent  increase 
+(54.2%) in NSCLC tissues.  
+
+There are pressing needs for the development of 
+blood  biomarkers  because  it  is  convenient  and  less 
+invasive. There are a few biomarkers for the diagnosis 
+and  prognosis  prediction  in  lung  cancer  and  their 
+usefulness is hampered because of low diagnostic and 
+prognostic  value.[11-13]  Although  it  was  unclear 
+form  of 
+whether 
+its 
+exist 
+AIMP2-DX2  would 
+autoantibody was detectable in the blood and showed 
+the correlation with serum CYFRA 21-1 (γ = 0.133, P = 
+0.056;  data  not  shown),  a  soluble  fragment  of 
+cytokeratin 19 filaments.[14, 15] 
+
+secretory 
+in 
+
+soluble  and 
+
+the  blood, 
+
+the 
+
+The  clinical  implication  of  AIMP2,  AIMP2-DX2 
+
+autoantibody  and  AIMP2-DX2/AIMP2  autoantibody 
+ratio  was  investigated  for  the  first  time  in  this  study 
+lung  cancer  patients.  AIMP2-DX2/AIMP2 
+from 
+autoantibody  ratio  was  suggested  as  a  potential 
+prognostic  biomarker  in  lung  cancer  patients  while 
+AIMP2-DX2  autoantibody  alone  was  not.  The 
+competitive  interaction  between  AIMP2-DX2  and 
+AIMP2  for  binding  to  the  target  proteins  could  be 
+related 
+of 
+to 
+AIMP2-DX2/AIMP2 ratio. 
+
+prognostic 
+
+value 
+
+the 
+
+for 
+
+the 
+
+further 
+
+clarifying 
+
+Although  this  study  presented  a  potential  of 
+AIMP2-DX2  as  a  potential  biomarker  in  lung  cancer, 
+there are a few limitations to be addressed. First, the 
+diagnostic  and  prognostic  value  of  AIMP2-DX2  as 
+determined by IHC and autoantibody levels needs to 
+be compared in the specimens obtained from the same 
+subjects  at  the  same  time  point.  The  relationship 
+between AIMP2-DX2 in the tissue and in the blood is 
+role  of 
+important 
+AIMP2-DX2  in  cancer  formation  and  progression. 
+Second,  development  of  direct  measurement  of 
+AIMP2-DX2  and  AIMP2  in  the  blood  would  be  also 
+needed  to  overcome  the  limitation  of  autoantibody 
+analysis. Future studies should compare the secretory 
+form  of  AIMP2-DX2/AIMP2  and  autoantibodies 
+against AIMP2-DX2/AIMP2 as suitable biomarkers in 
+lung  cancer.  In  conclusion,  autoantibodies  against 
+AIMP2-DX2 and AIMP2 were detectable in blood. The 
+increased ratio of AIMP2-DX2/AIMP2 autoantibodies 
+was  related  to  the  poor  clinical  outcome  of  lung 
+its  potential  as  a 
+cancer  patients,  suggesting 
+prognostic marker in lung cancer.  
+
+Supplementary Material  
+Supplementary figures and tables.  
+http://www.jcancer.org/v08p1347s1.pdf  
+
+ 
+http://www.jcancer.org 
+
+ Journal of Cancer 2017, Vol. 8 
+
+Abbreviations 
+
+AIMP2: aminoacyl t-RNA synthetase-interacting 
+multi-functional  protein  2;  AIMP2-DX2:  aminoacyl 
+t-RNA synthetase-interacting multi-functional protein 
+2–exon 2 deletion; ARS: aminoacyl t-RNA synthetase; 
+CEA:  carcinoembryonic  antigen;  CI:  confidence 
+FUSE-binding 
+interval; 
+IHC: 
+immunohistochemistry; 
+enzyme-linked 
+ELISA: 
+immunosorbent  assay;  OS:  overall  survival;  PFS: 
+TGF: 
+progression/recurrence-free 
+tumor-derived  growth  factor;  TNF:  tumor  necrosis 
+factor; TRAF2: TNF receptor-associated factor 2. 
+
+survival; 
+
+protein; 
+
+FBP: 
+
+Acknowledgement 
+
+This study was supported by the Global Frontier 
+National  Research  Foundation,  Ministry  of  Science, 
+ICT  &  Future  Planning 
+(MSIP)  of  Korea 
+NRF-M3A6A4-2010-0029785 
+2014M3A6A4074817, 
+and NRF-2015M3A6A4065724.  
+
+Competing Interests 
+
+The  authors  have  declared  that  no  competing 
+
+interest exists. 
+
+References 
+1. 
+
+Siegel R, Ma J, Zou Z, Jemal A. Cancer statistics, 2014. CA Cancer J Clin. 2014; 
+64: 9-29. 
+
+2.  Choi  JW,  Kim  DG,  Lee  AE,  Kim  HR,  Lee  JY,  Kwon  NH,  et  al. 
+tumor  suppressor  AIMP2/p38: 
+
+Cancer-associated  splicing  variant  of 
+pathological implication in tumorigenesis. PLoS Genet. 2011; 7: e1001351. 
+3.  Kim MJ, Park BJ, Kang YS, Kim HJ, Park JH, Kang JW, et al. Downregulation 
+of  FUSE-binding  protein  and  c-myc  by  tRNA  synthetase  cofactor  p38  is 
+required for lung cell differentiation. Nat Genet. 2003; 34: 330-6. 
+
+4.  Han  JM,  Park  BJ,  Park  SG,  Oh  YS,  Choi  SJ,  Lee  SW,  et  al.  AIMP2/p38,  the 
+scaffold  for  the  multi-tRNA  synthetase  complex,  responds  to  genotoxic 
+stresses via p53. Proc Natl Acad Sci U S A. 2008; 105: 11206-11. 
+
+5.  Choi JW, Kim DG, Park MC, Um JY, Han JM, Park SG, et al. AIMP2 promotes 
+TNFalpha-dependent  apoptosis  via  ubiquitin-mediated  degradation  of 
+TRAF2. J Cell Sci. 2009; 122: 2710-5. 
+
+6.  Chang  SH,  Chung  YS,  Hwang  SK,  Kwon  JT,  Minai-Tehrani  A,  Kim  S,  et  al. 
+Lentiviral  vector-mediated  shRNA  against  AIMP2-DX2  suppresses  lung 
+cancer cell growth through blocking glucose uptake. Molecules and cells. 2012; 
+33: 553-62. 
+
+7.  Hwang  SK,  Chang  SH,  Minai-Tehrani  A,  Kim  YS,  Cho  MH. 
+Lentivirus-AIMP2-DX2  shRNA  suppresses  cell  proliferation  by  regulating 
+Akt1 signaling pathway in the lungs of AIMP2(+)/(-) mice. Journal of aerosol 
+medicine and pulmonary drug delivery. 2013; 26: 165-73. 
+
+8.  Yum  MK,  Kang  JS,  Lee  AE,  Jo  YW,  Seo  JY,  Kim  HA,  et  al.  AIMP2  Controls 
+Intestinal  Stem  Cell  Compartments  and  Tumorigenesis  by  Modulating 
+Wnt/beta-Catenin Signaling. Cancer research. 2016; 76: 4559-68. 
+
+9.  Choi JW, Lee JW, Kim JK, Jeon HK, Choi JJ, Kim DG, et al. Splicing variant of 
+AIMP2 as an effective target against chemoresistant ovarian cancer. J Mol Cell 
+Biol. 2012; 4: 164-73. 
+
+10.  Lee  HS,  Kim  DG,  Oh  YS,  Kwon  NH,  Lee  JY,  Kim  D,  et  al.  Chemical 
+suppression  of  an  oncogenic  splicing  variant  of  AIMP2  induces  tumour 
+regression. The Biochemical journal. 2013; 454: 411-6. 
+
+11.  Hsiao  KC,  Shih  NY,  Chu  PY,  Hung  YM,  Liao  JY,  Chou  SW,  et  al. 
+Anti-alpha-enolase  is  a  prognostic  marker  in  postoperative  lung  cancer 
+patients. Oncotarget. 2015; 6: 35073-86. 
+
+12.  Lui NS, Yang YW, van Zante A, Buchanan P, Jablons DM, Lemjabbar-Alaoui 
+H. SULF2 Expression Is a Potential Diagnostic and Prognostic Marker in Lung 
+Cancer. PloS one. 2016; 11: e0148911. 
+
+13.  Xie  P,  Li  X,  Tan  X,  Sun  X,  Wang  C,  Yu  J.  Sequential  Serum  Let-7  Is  a  Novel 
+to  Predict  Accelerated  Reproliferation  During  Fractional 
+
+Biomarker 
+Radiotherapy in Lung Cancer. Clinical lung cancer. 2016; 17: e95-e101. 
+
+14.  Stieber  P,  Hasholzner  U,  Bodenmuller  H,  Nagel  D,  Sunder-Plassmann  L, 
+Dienemann H, et al. CYFRA 21-1. A new marker in lung cancer. Cancer. 1993; 
+72: 707-13. 
+
+15.  Wieskopf  B,  Demangeat  C,  Purohit  A,  Stenger  R,  Gries  P,  Kreisman  H,  et  al. 
+Cyfra  21-1  as  a  biologic  marker  of  non-small  cell  lung  cancer.  Evaluation  of 
+sensitivity, specificity, and prognostic role. Chest. 1995; 108: 163-9. 
+
+ 
+
+1354 
+
+ 
+http://www.jcancer.org 
+
+
